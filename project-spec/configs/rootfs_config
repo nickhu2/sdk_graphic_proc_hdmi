@@ -3652,17 +3652,17 @@ CONFIG_bridge-utils=y
 #
 # libdrm 
 #
-# CONFIG_libdrm is not set
-# CONFIG_libdrm-omap is not set
-# CONFIG_libdrm-amdgpu is not set
-# CONFIG_libdrm-dev is not set
-# CONFIG_libdrm-dbg is not set
-# CONFIG_libdrm-drivers is not set
-# CONFIG_libdrm-nouveau is not set
-# CONFIG_libdrm-tests is not set
-# CONFIG_libdrm-freedreno is not set
-# CONFIG_libdrm-radeon is not set
-# CONFIG_libdrm-kms is not set
+CONFIG_libdrm=y
+CONFIG_libdrm-omap=y
+CONFIG_libdrm-amdgpu=y
+CONFIG_libdrm-dev=y
+CONFIG_libdrm-dbg=y
+CONFIG_libdrm-drivers=y
+CONFIG_libdrm-nouveau=y
+CONFIG_libdrm-tests=y
+CONFIG_libdrm-freedreno=y
+CONFIG_libdrm-radeon=y
+CONFIG_libdrm-kms=y
 
 #
 # xcursor-transparent-theme 
@@ -4130,12 +4130,26 @@ CONFIG_bridge-utils=y
 #
 # apps 
 #
-# CONFIG_gpio-demo is not set
-# CONFIG_peekpoke is not set
+CONFIG_gpio-demo=y
+CONFIG_gpioutil=y
+CONFIG_kmsdemo=y
+CONFIG_peekpoke=y
+CONFIG_pwmdemo=y
 
 #
 # user packages 
 #
+CONFIG_bbexample-lt=y
+
+#
+# modules 
+#
+CONFIG_hdmi-modules=y
+CONFIG_libgpio=y
+CONFIG_libpwm=y
+CONFIG_libuio=y
+CONFIG_libvrc=y
+CONFIG_iperf3=y
 
 #
 # PetaLinux RootFS Settings

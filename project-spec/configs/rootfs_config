@@ -1703,7 +1703,7 @@ CONFIG_run-postinsts=y
 #
 # libx11 
 #
-# CONFIG_libx11 is not set
+CONFIG_libx11=y
 # CONFIG_libx11-dbg is not set
 # CONFIG_libx11-xcb is not set
 # CONFIG_libx11-dev is not set
@@ -3681,16 +3681,16 @@ CONFIG_libdrm-kms=y
 #
 # xserver-xorg 
 #
-# CONFIG_xserver-xorg is not set
+CONFIG_xserver-xorg=y
 # CONFIG_xserver-xorg-extension-record is not set
 # CONFIG_xserver-xorg-dev is not set
-# CONFIG_xserver-xorg-extension-glx is not set
+CONFIG_xserver-xorg-extension-glx=y
 # CONFIG_xserver-xorg-extension-dbe is not set
 # CONFIG_xserver-xorg-utils is not set
 # CONFIG_xserver-xorg-module-libint10 is not set
 # CONFIG_xserver-xorg-extension-dri2 is not set
 # CONFIG_xserver-xorg-dbg is not set
-# CONFIG_xf86-video-modesetting is not set
+CONFIG_xf86-video-modesetting=y
 # CONFIG_xserver-xorg-module-exa is not set
 # CONFIG_xserver-xorg-extension-extmod is not set
 # CONFIG_xserver-xorg-extension-dri is not set
@@ -4081,7 +4081,7 @@ CONFIG_libdrm-kms=y
 #
 # packagegroup-petalinux-qt 
 #
-# CONFIG_packagegroup-petalinux-qt is not set
+CONFIG_packagegroup-petalinux-qt=y
 # CONFIG_packagegroup-petalinux-qt-dbg is not set
 # CONFIG_packagegroup-petalinux-qt-dev is not set
 
@@ -4116,9 +4116,9 @@ CONFIG_libdrm-kms=y
 #
 # packagegroup-petalinux-x11 
 #
-# CONFIG_packagegroup-petalinux-x11 is not set
+CONFIG_packagegroup-petalinux-x11=y
 # CONFIG_packagegroup-petalinux-x11-dbg is not set
-# CONFIG_packagegroup-petalinux-x11-dev is not set
+CONFIG_packagegroup-petalinux-x11-dev=y
 
 #
 # packagegroup-petalinux-xfce 
@@ -4135,6 +4135,7 @@ CONFIG_gpioutil=y
 CONFIG_kmsdemo=y
 CONFIG_peekpoke=y
 CONFIG_pwmdemo=y
+CONFIG_qttest=y
 
 #
 # user packages 
@@ -4150,6 +4151,8 @@ CONFIG_libpwm=y
 CONFIG_libuio=y
 CONFIG_libvrc=y
 CONFIG_iperf3=y
+# CONFIG_testc is not set
+# CONFIG_testccc is not set
 
 #
 # PetaLinux RootFS Settings

@@ -52,6 +52,7 @@ CONFIG_SUBSYSTEM_MEMORY_IP_NAME="ps7_ddr_0"
 #
 # Serial Settings
 #
+# CONFIG_SUBSYSTEM_SERIAL_PS7_UART_0_SELECT is not set
 CONFIG_SUBSYSTEM_SERIAL_PS7_UART_1_SELECT=y
 # CONFIG_SUBSYSTEM_SERIAL_MANUAL_SELECT is not set
 # CONFIG_SUBSYSTEM_SERIAL_PS7_UART_1_BAUDRATE_9600 is not set
@@ -253,6 +254,10 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 #
 CONFIG_USER_LAYER_0="/home/code/test/sdk_hdmi/hdmi_test/project-spec/meta-user/recipes-nick"
 CONFIG_USER_LAYER_1=""
+
+
+
+
 
 
 

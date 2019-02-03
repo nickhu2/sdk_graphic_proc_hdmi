@@ -4135,21 +4135,19 @@ CONFIG_gpioutil=y
 CONFIG_kmsdemo=y
 CONFIG_peekpoke=y
 CONFIG_pwmdemo=y
+CONFIG_qtreplay=y
 CONFIG_qttest=y
+CONFIG_qttest2=y
 
 #
 # user packages 
 #
-CONFIG_bbexample-lt=y
-
-#
-# modules 
-#
-CONFIG_hdmi-modules=y
 CONFIG_libgpio=y
 CONFIG_libpwm=y
 CONFIG_libuio=y
 CONFIG_libvrc=y
+# CONFIG_bbexample-lt is not set
+# CONFIG_hdmi-modules is not set
 CONFIG_iperf3=y
 # CONFIG_testc is not set
 # CONFIG_testccc is not set

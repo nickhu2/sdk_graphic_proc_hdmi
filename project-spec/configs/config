@@ -252,13 +252,7 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 #
 # User Layers
 #
-CONFIG_USER_LAYER_0="/home/code/test/sdk_hdmi/hdmi_test/project-spec/meta-user/recipes-nick"
-CONFIG_USER_LAYER_1=""
-
-
-
-
-
+CONFIG_USER_LAYER_0=""
 
 
 

@@ -13,6 +13,8 @@ SRC_URI += "file://user_2018-09-24-14-23-00.cfg \
             file://user_2018-10-16-01-00-00.cfg \
             file://user_2018-12-27-23-00-00.cfg \
             file://user_2019-01-06-17-11-00.cfg \
+            file://user_2019-02-17-12-53-00.cfg \
+            file://user_2019-02-17-17-44-00.cfg \
             "
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"

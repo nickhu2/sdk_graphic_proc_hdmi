@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER image_proc_2d
+	OPTION supported_peripherals = (image_proc_2d);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = image_proc_2d;
+END DRIVER
